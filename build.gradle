@@ -1,0 +1,4 @@
+plugins {
+    // Load the plugin once at the root; modules apply it.
+    alias(libs.plugins.spring.boot) apply false
+}
